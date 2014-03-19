@@ -204,7 +204,7 @@ if sys.version_info < (2, 7) or (3, 0) <= sys.version_info < (3, 3):
 # See here for more options:
 # <http://pythonhosted.org/setuptools/setuptools.html>
 setup_dict = dict(
-    name='backend',
+    name='dcextensions',
     version='0.0.1',
     author='Wouter Claeys',
     author_email='wouter.claeys@rwo.vlaanderen.be',
@@ -245,7 +245,6 @@ setup_dict = dict(
     zip_safe=False,  # don't use eggs
     entry_points={
         'console_scripts': [
-            'backend_cli = backend.main:entry_point'
         ],
         # if you have a gui, use this
         # 'gui_scripts': [
