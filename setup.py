@@ -244,6 +244,9 @@ setup_dict = dict(
     cmdclass={'test': TestAllCommand},
     zip_safe=False,  # don't use eggs
     entry_points={
+        'dogpile.cache':
+        'dogpile.cache.memory.limited ='
+        'dcextensions.backends.memory:LimitedSizeMemoryBackend',
         'console_scripts': [
         ],
         # if you have a gui, use this
