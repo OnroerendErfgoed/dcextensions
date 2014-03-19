@@ -1,5 +1,5 @@
 import unittest
-from backend.memory import LimitedSizeMemoryBackend
+from dcextensions.backends.memory import LimitedSizeMemoryBackend
 from dogpile.cache.api import NO_VALUE
 
 
@@ -39,19 +39,19 @@ class TestMemory(unittest.TestCase):
             self.assertEqual(backend.get(x), NO_VALUE)
         for x in range(4, 9):
             self.assertEqual(backend.get(x), x)
-        backend.set_multi({11:11, 12:12, 13:13})
+        backend.set_multi({11: 11, 12: 12, 13: 13})
         self.assertEqual(backend.get_multi({11, 12, 13}), [11, 12, 13])
 
     def test_get_set_multi(self):
         backend = LimitedSizeMemoryBackend(arguments={})
-        backend.set_multi({1:1, 2:2, 3:3})
+        backend.set_multi({1: 1, 2: 2, 3: 3})
         for x in range(1, 4):
             self.assertEqual(backend.get(x), x)
         self.assertEqual(backend.get_multi({1, 2, 3}), [1, 2, 3])
 
     def test_delete(self):
         backend = LimitedSizeMemoryBackend(arguments={})
-        backend.set_multi({1:1, 2:2, 3:3})
+        backend.set_multi({1: 1, 2: 2, 3: 3})
         for x in range(1, 4):
             self.assertEqual(backend.get(x), x)
         backend.delete_multi([1, 2, 3])
