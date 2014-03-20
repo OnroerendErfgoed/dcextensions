@@ -4,6 +4,9 @@ Extensions for dogpile.cache
 
 This library provides extensions for dogpile.cache. For the time being only one extension is provided, a memory backend that can be limited in size (number of items to cache).
 
+.. image:: https://badge.fury.io/py/dcextensions.png
+        :target: http://badge.fury.io/py/dcextensions
+
 Installation
 ------------
 
