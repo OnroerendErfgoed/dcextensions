@@ -7,6 +7,9 @@ This library provides extensions for dogpile.cache. For the time being only one 
 .. image:: https://badge.fury.io/py/dcextensions.png
         :target: http://badge.fury.io/py/dcextensions
 
+.. image:: https://travis-ci.org/OnroerendErfgoed/dcextensions.svg?branch=master
+        :target: https://travis-ci.org/OnroerendErfgoed/dcextensions
+
 Installation
 ------------
 
