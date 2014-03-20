@@ -10,6 +10,9 @@ This library provides extensions for dogpile.cache. For the time being only one 
 .. image:: https://travis-ci.org/OnroerendErfgoed/dcextensions.svg?branch=master
         :target: https://travis-ci.org/OnroerendErfgoed/dcextensions
 
+.. image:: https://coveralls.io/repos/OnroerendErfgoed/dcextensions/badge.png?branch=master
+        :target: https://coveralls.io/r/OnroerendErfgoed/dcextensions?branch=master
+
 Installation
 ------------
 
