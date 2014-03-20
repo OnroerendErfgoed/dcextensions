@@ -210,7 +210,7 @@ setup_dict = dict(
     author_email='wouter.claeys@rwo.vlaanderen.be',
     maintainer='Wouter Claeys',
     maintainer_email='wouter.claeys@rwo.vlaanderen.be',
-    url='https://bitbucket.org/claeysw/dogpile.cache.memory-limit-backend',
+    url='https://github.com/OnroerendErfgoed/dcextensions',
     description='',
     long_description=read('README.rst'),
     # Find a list of classifiers here:
