@@ -211,7 +211,7 @@ setup_dict = dict(
     maintainer='Wouter Claeys',
     maintainer_email='wouter.claeys@rwo.vlaanderen.be',
     url='https://github.com/OnroerendErfgoed/dcextensions',
-    description='',
+    description='A library of dogpile.cache extensions',
     long_description=read('README.rst'),
     # Find a list of classifiers here:
     # <http://pypi.python.org/pypi?%3Aaction=list_classifiers>
